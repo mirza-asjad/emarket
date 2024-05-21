@@ -56,7 +56,7 @@ class _CheckoutCardState extends State<CheckoutCard> {
     try {
       print('Price to pay: $price');
       String apiKey =
-          'sk_test_51PAV0TL5n3aVrGOjlIQxUA9NBBrbpQ79w6rP2R6Qi2THyiZ3YZ92qKdlOJMOMrKbyknrmpCrzs4qtf6FwMvNfCDv00EKXE20xl';
+          '';  //add your apiKey
       Map<String, dynamic> body = {
         'amount': price,
         'currency': 'USD',
