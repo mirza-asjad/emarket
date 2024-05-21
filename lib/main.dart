@@ -16,7 +16,7 @@ void main() async {
   await DatabaseHelper.instance.initDatabase();
   Get.put<CartController>(CartController());
   Stripe.publishableKey =
-      'pk_test_51PAV0TL5n3aVrGOjjTe4nluANZk9OJGpvQtd45XIerRErUXcw7EFra6jl4AXiJ3MuLuVKhhTFJGkqsxloBbSRax000WKn7f8C0';
+      '';
 
   runApp(const MainApp());
 }
